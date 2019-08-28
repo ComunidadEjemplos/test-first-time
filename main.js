@@ -1,4 +1,4 @@
-
+/** FUNCION DE LA PELOTA */
 (function(){
     self.Board = function(width,height){
         this.width=width;
@@ -167,6 +167,8 @@
 
 
 })();
+
+
 /** FUNCION DE LA BARRA */
     var board = new Board(800,400);
     var barIz = new Bar(20,100,40,100,board);

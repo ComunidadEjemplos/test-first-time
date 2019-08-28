@@ -1,0 +1,17 @@
+commit 901fd70ab3c765a1dc80501e0ce2664802108f2a
+Author: ricardo <ricardo.moreno1@gmx.com>
+Date:   Tue Aug 27 23:17:33 2019 -0500
+
+    se modifico los archivos index y los js
+
+commit 3e2d8deb744e91f4ecce151f92a8fca2867dc9bc
+Author: ricardo <rysky@RMS-Mac.local>
+Date:   Tue Aug 27 23:09:40 2019 -0500
+
+    subiendo todos los archivos
+
+commit f1cc14fcb631c6f822df60b22d1e7ff8b4b01faa
+Author: ricardo <rysky@RMS-Mac.local>
+Date:   Tue Aug 27 23:03:45 2019 -0500
+
+    primee index
