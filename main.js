@@ -1,4 +1,4 @@
-/** FUNCION DE LA PELOTA */
+/** FUNCION DE LOS Elementos */
 (function(){
     self.Board = function(width,height){
         this.width=width;
@@ -9,7 +9,6 @@
         this.ball = null;
         this.playing = false;
     }
-
     self.Board.prototype = {
         get elements(){
             // var elements = this.bars;
@@ -18,7 +17,6 @@
             return elements;
         }
     }
-
 } )();
 
 /** FUNCION DE LA PELOTA */
@@ -57,10 +55,8 @@
             this.speed_x = this.speed * Math.cos(this.bounce_angle);
             if( this.x > (this.board.width/2)) this.direcction =-1;
             else this.direcction =1;
-//
         }
    }
-
 })();
 
 
@@ -169,7 +165,7 @@
 })();
 
 
-/** FUNCION DE LA BARRA */
+/** FUNCION DE GENERAL */
     var board = new Board(800,400);
     var barIz = new Bar(20,100,40,100,board);
     var barDe = new Bar(700,100,40,100,board);
@@ -207,9 +203,9 @@ document.addEventListener("keydown",function( ev ){
 
 });
 
-board_view.draw();
+board_view.draw(); //PINTA 
 /** FUNCION DE LA BARRA */
-//al usa animationFrame dejamos de usar esra
+//al usa animationFrame dejamos de usar esta
 //window.addEventListener("load",main);
 window.requestAnimationFrame(controlller);
 
